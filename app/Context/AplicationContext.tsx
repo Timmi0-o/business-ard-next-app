@@ -7,8 +7,10 @@ import {
 } from 'react'
 
 export const AplicationContext = createContext<AplicationContextType>({
-	isOpen: false,
-	setIsOpen: () => {},
+	isAplicationOpen: false,
+	setIsAplicationOpen: () => {},
+	isThanksOpen: false,
+	setIsThanksOpen: () => {},
 })
 
 export function AplicationProvider({
@@ -27,8 +29,10 @@ export function useAplicationContext() {
 }
 
 interface AplicationContextType {
-	isOpen: boolean
-	setIsOpen: Dispatch<SetStateAction<boolean>>
+	isAplicationOpen: boolean
+	setIsAplicationOpen: Dispatch<SetStateAction<boolean>>
+	isThanksOpen: boolean
+	setIsThanksOpen: Dispatch<SetStateAction<boolean>>
 }
 
 interface AplicationProviderType {

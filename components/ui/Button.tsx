@@ -21,7 +21,7 @@ export const Button = ({ children, background, textColor }: ButtonProps) => {
 	}, [background])
 
 	return (
-		<div className='flex border-[1px] border-white cursor-pointer  hover:opacity-70 duration-300 active:opacity-45'>
+		<div className='flex border-[1px] border-white cursor-pointer  hover:opacity-70 duration-300 active:opacity-45 w-full'>
 			<div
 				className={`flex justify-start items-center w-[305px] h-[67px] ${background}`}
 			>

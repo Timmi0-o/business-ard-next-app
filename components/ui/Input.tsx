@@ -3,7 +3,7 @@ import { Dispatch, SetStateAction } from 'react'
 
 export const Input = ({ state, setState, placeholder }: InputProps) => {
 	return (
-		<div className='ml-[-15px] border-b-[2px] border-b-[#ffffff7e] mb-[65px] h-[36px]'>
+		<div className='border-b-[2px] border-b-[#ffffff7e] mb-[65px] h-[36px]'>
 			<input
 				className={
 					'w-full h-[calc(100%-11px)] bg-transparent outline-none text-[20px] text-[#ffffffb8] font-normal placeholder-[#ffffff73] ' +

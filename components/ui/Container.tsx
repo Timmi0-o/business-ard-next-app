@@ -7,7 +7,7 @@ interface ContainerProps {
 export const Container = ({ children }: ContainerProps) => {
 	return (
 		<div className='w-full flex justify-center'>
-			<div className='max-w-[1320px]'>{children}</div>
+			<div className='max-w-[760px] md:max-w-[1320px]'>{children}</div>
 		</div>
 	)
 }
