@@ -5,7 +5,7 @@ import { NawLink } from '../ui/NawLink'
 export const Header = () => {
 	return (
 		<Container>
-			<div className='flex items-center mt-[40px]'>
+			<div className='flex items-center mt-[10px] sm:mt-[40px]'>
 				<div className='w-fit mr-[40px] md:mr-[15px] xl:mr-[150px] 2xl:mr-[180px]'>
 					<div className='h-[1px] bg-white'></div>
 					<p className='py-[2px] text-[18px] tracking-[1px] font-semibold'>
