@@ -28,12 +28,12 @@ export const Information = () => {
 			<Container>
 				<div
 					className={
-						`mt-[60px] md:mt-[120px] lg:mt-[166px] ml-[-10px] sm:ml-0 sm:mr-[200px] md:mr-[260px] lg:mr-[280px] xl:mr-[590px] 2xl:mr-[525px]  ` +
+						`mt-[40px] md:mt-[120px] lg:mt-[166px] ml-[-10px] sm:ml-0 sm:mr-[200px] md:mr-[260px] lg:mr-[280px] xl:mr-[590px] 2xl:mr-[525px]  ` +
 						raleway.className
 					}
 				>
 					<div>
-						<p className='text-[40px] md:text-[46px] 2xl:text-[65px] uppercase font-semibold mb-[45px] leading-[60px] lg:leading-[90px]'>
+						<p className='text-[32px] md:text-[46px] 2xl:text-[65px] uppercase font-semibold mb-[45px] leading-[40px] lg:leading-[90px]'>
 							Создаю условия <br /> для вашего успеха
 						</p>
 						<p className='border-l-[1px] border-l-[#fff] pl-[24px] text-[16px] text-[#ffffff7f] after:w-0 after:h-[200px] after:border-t-[2px] after:border-t-[#ffff] border-partial-left'>
@@ -63,7 +63,7 @@ export const Information = () => {
 					/>
 					<div
 						className={
-							'flex gap-[20px] sm:gap-[80px] lg:gap-[250px] mt-[112px] ' +
+							'flex gap-[4px] sm:gap-[80px] lg:gap-[250px] mt-[112px] ' +
 							montserrat.className
 						}
 					>
