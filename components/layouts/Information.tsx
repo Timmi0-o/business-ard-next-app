@@ -28,12 +28,12 @@ export const Information = () => {
 			<Container>
 				<div
 					className={
-						`mt-[40px] md:mt-[30px] lg:mt-[166px] ml-[-10px] sm:ml-0 sm:mr-[200px] md:mr-[260px] lg:mr-[280px] xl:mr-[590px] 2xl:mr-[525px]  ` +
+						`mt-[20px] md:max-lg:mt-[60px] xl:mt-[80px] 2xl:mt-[166px] ml-[-10px] sm:ml-0 sm:mr-[200px] md:mr-[300px] lg:mr-[320px] xl:mr-[590px] 2xl:mr-[615px]  ` +
 						raleway.className
 					}
 				>
 					<div>
-						<p className='text-[32px] md:text-[42px] 2xl:text-[65px] uppercase font-semibold mb-[45px] leading-[40px] lg:leading-[90px]'>
+						<p className='text-[32px] md:text-[42px] 2xl:text-[65px] uppercase font-semibold mb-[25px] sm:mb-[45px] leading-[40px] lg:leading-[90px]'>
 							Создаю условия <br /> для вашего успеха
 						</p>
 						<p className='border-l-[1px] border-l-[#fff] pl-[8px] sm:pl-[24px] text-[16px] text-[#ffffff7f] after:w-0 after:h-[200px] after:border-t-[2px] after:border-t-[#ffff] border-partial-left'>

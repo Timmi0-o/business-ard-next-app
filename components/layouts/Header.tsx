@@ -5,20 +5,20 @@ import { NawLink } from '../ui/NawLink'
 export const Header = () => {
 	return (
 		<Container>
-			<div className='flex items-center mt-[10px] sm:mt-[40px]'>
-				<div className='w-fit mr-[40px] md:mr-[15px] xl:mr-[150px] 2xl:mr-[180px]'>
+			<div className='flex items-center justify-between min-w-[360px] mt-[10px] sm:mt-[40px]'>
+				<div className='min-w-[180px] mr-[15px] xl:mr-[150px] 2xl:mr-[180px]'>
 					<div className='h-[1px] bg-white'></div>
-					<p className='py-[2px] text-[18px] tracking-[1px] font-semibold'>
+					<p className='py-[2px] sm:text-[16px] md:text-[18px] tracking-[1px] font-semibold text-center'>
 						ALEX. SHEVTSOV
 					</p>
 					<div className='h-[1px] bg-white'></div>
 				</div>
-				<div className=' hidden sm:block'>
+				<div className=' hidden sm:block md:px-[10px] lg:px-[40px] xl:px-0'>
 					<NawLink arrayNaw={nawLinks} />
 				</div>
-				<div className='flex items-center md:ml-[15px] xl:ml-[140px] 2xl:ml-[151px]'>
+				<div className='flex items-center xl:ml-[140px] 2xl:ml-[151px]'>
 					<Phone />
-					<span className='ml-[15px] font-semibold sm:text-[16px] mg:text-[18px] hidden sm:block'>
+					<span className='ml-[15px] font-semibold sm:text-[16px] md:text-[18px] hidden lg:block'>
 						8-345-123-34-45
 					</span>
 				</div>
