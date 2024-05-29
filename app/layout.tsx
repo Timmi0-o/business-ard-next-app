@@ -25,7 +25,7 @@ export default function RootLayout({
 							<div className='absolute right-[90px] xl:right-[430px] 2xl:right-[450px] h-full border-l border-[#ffffff1b]'></div>
 						</div>
 					</div>
-					<div className='mx-[20px]'>{children}</div>
+					<div className='mx-[20px] text-white'>{children}</div>
 				</div>
 			</body>
 		</html>
